@@ -11,4 +11,12 @@
 
 단, 복잡한 실제 공정이 상황이 아닌, 한개의 y값을 특정 값으로 만들기 위한 최적의 x값을 구하는 아주 간단한 예시로 진행한다. 
 
+
+![image](https://github.com/khw11044/Basic-RL-for-Process-Control/assets/51473705/50a6de31-8780-46b3-b6f1-3b5b9f19d89b)
+
+위 그림처럼 품질(y)값이 240을 갖게 하기 위해 적절한 x값을 스스로 찾다가 
+
+적절한 x값이 도달하면 멈춘다. 그리고 출력해보면 원하는 setPoint(y값 즉 품질)과 유사한 값을 갖는다.
+
+
 코드는 [Pytorch RL 튜토리얼](https://leedakyeong.tistory.com/entry/%EA%B0%95%ED%99%94%ED%95%99%EC%8A%B5-%EA%B0%95%ED%99%94%ED%95%99%EC%8A%B5%EC%9C%BC%EB%A1%9C-%EA%B3%B5%EC%A0%95-%EC%9E%90%EB%8F%99-%EC%A0%9C%EC%96%B4-%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%EC%85%98-%ED%95%B4%EB%B3%B4%EA%B8%B0#recentEntries)을 참고하였으며, gym 게임 environment에 구현되어 있는걸 본 과정에 맞게 수정하였다. 
